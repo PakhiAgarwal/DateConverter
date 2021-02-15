@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib/Gregorian.cpp
+Gregorian.h
+C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib/Gregorian.h
+
+C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib/Gregorian.h
+
+C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib/Julian.cpp
+Julian.h
+C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib/Julian.h
+
+C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib/Julian.h
+

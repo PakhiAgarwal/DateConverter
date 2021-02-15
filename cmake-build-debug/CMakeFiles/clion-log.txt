@@ -1,0 +1,16 @@
+"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" C:\Users\pua66\CLionProjects\DateConverter
+-- Downloading/updating googletest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-download
+Scanning dependencies of target googletest-download
+[ 11%] Skipping update step for 'googletest-download'
+[ 22%] No configure step for 'googletest-download'
+[ 33%] No build step for 'googletest-download'
+[ 44%] No install step for 'googletest-download'
+[ 55%] No test step for 'googletest-download'
+[ 66%] Completed 'googletest-download'
+[100%] Built target googletest-download
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug
