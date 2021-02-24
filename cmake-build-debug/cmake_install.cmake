@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/testing_test")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Hello")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/DateConverter_lib/cmake_install.cmake")
-endif()
+  # Include the install script for each subdirectory.
+  include("C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/src/cmake_install.cmake")
+  include("C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/test/cmake_install.cmake")
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-build/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/Google_tests/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

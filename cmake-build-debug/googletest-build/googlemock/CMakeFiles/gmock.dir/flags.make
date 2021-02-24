@@ -6,5 +6,5 @@ CXX_FLAGS = /DWIN32 /D_WINDOWS /W4 /GR  /MDd /Zi /Ob0 /Od /RTC1   -GS -W4 -WX -w
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\Users\pua66\CLionProjects\DateConverter\DateConverter_lib -IC:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\googletest-src\googlemock\include -IC:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\googletest-src\googlemock -IC:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\googletest-src\googletest\include -IC:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\googletest-src\googletest 
+CXX_INCLUDES = -IC:\Users\pua66\CLionProjects\DateConverter\src -IC:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\googletest-src\googlemock\include -IC:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\googletest-src\googlemock -IC:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\googletest-src\googletest\include -IC:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\googletest-src\googletest 
 

@@ -5,7 +5,7 @@
 		<Option title="gmock"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\DateConverter_lib\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\googletest-src\;CMake Files\cmake-build-debug\googletest-src\googlemock\;CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\googletest-src\googletest\;CMake Files\cmake-build-debug\googletest-src\googletest\cmake\;CMake Files\Google_tests\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\googletest-src\;CMake Files\cmake-build-debug\googletest-src\googlemock\;CMake Files\cmake-build-debug\googletest-src\googlemock\cmake\;CMake Files\cmake-build-debug\googletest-src\googletest\;CMake Files\cmake-build-debug\googletest-src\googletest\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\vcpkg\;CMake Files\..\..\vcpkg\scripts\;CMake Files\..\..\vcpkg\scripts\buildsystems\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-build/googlemock"/>
@@ -24,7 +24,7 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib"/>
+					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/src"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googlemock/include"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googlemock"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest/include"/>
@@ -51,7 +51,7 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib"/>
+					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/src"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googlemock/include"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googlemock"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest/include"/>
@@ -78,7 +78,7 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib"/>
+					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/src"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googlemock/include"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googlemock"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest/include"/>
@@ -105,7 +105,7 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib"/>
+					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/src"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googlemock/include"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googlemock"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest/include"/>
@@ -132,7 +132,7 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib"/>
+					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/src"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
@@ -157,7 +157,7 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib"/>
+					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/src"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
@@ -182,7 +182,7 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib"/>
+					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/src"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
@@ -207,7 +207,7 @@
 				<Option type="2"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib"/>
+					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/src"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest/include"/>
 					<Add directory="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\ATLMFC\include"/>
@@ -250,8 +250,11 @@
 		<Unit filename="C:/Users/pua66/CLionProjects/DateConverter/DownloadProject.cmake">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/pua66/CLionProjects/DateConverter/DateConverter_lib/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\DateConverter_lib\"/>
+		<Unit filename="C:/Users/pua66/CLionProjects/DateConverter/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/pua66/CLionProjects/DateConverter/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
 		<Unit filename="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\"/>
@@ -280,8 +283,8 @@
 		<Unit filename="C:/Users/pua66/CLionProjects/DateConverter/cmake-build-debug/googletest-src/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\cmake-build-debug\googletest-src\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="C:/Users/pua66/CLionProjects/DateConverter/Google_tests/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\Google_tests\"/>
+		<Unit filename="C:/Users/pua66/CLionProjects/DateConverter/../../vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\scripts\buildsystems\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

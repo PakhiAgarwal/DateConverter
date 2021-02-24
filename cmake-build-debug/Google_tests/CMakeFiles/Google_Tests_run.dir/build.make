@@ -122,7 +122,7 @@ Google_Tests_run_EXTERNAL_OBJECTS =
 Google_tests\Google_Tests_run.exe: Google_tests\CMakeFiles\Google_Tests_run.dir\Converter_tests.cpp.obj
 Google_tests\Google_Tests_run.exe: Google_tests\CMakeFiles\Google_Tests_run.dir\AbsoluteDateTest.cpp.obj
 Google_tests\Google_Tests_run.exe: Google_tests\CMakeFiles\Google_Tests_run.dir\build.make
-Google_tests\Google_Tests_run.exe: DateConverter_lib\DateConverter_lib.lib
+Google_tests\Google_Tests_run.exe: src\DateConverter_lib.lib
 Google_tests\Google_Tests_run.exe: lib\gtestd.lib
 Google_tests\Google_Tests_run.exe: lib\gtest_maind.lib
 Google_tests\Google_Tests_run.exe: lib\gtestd.lib
@@ -131,7 +131,7 @@ Google_tests\Google_Tests_run.exe: Google_tests\CMakeFiles\Google_Tests_run.dir\
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Google_Tests_run.exe"
 	cd C:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\Google_tests
 	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Google_Tests_run.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.293\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Google_Tests_run.dir\objects1.rsp @<<
- /out:Google_Tests_run.exe /implib:Google_Tests_run.lib /pdb:C:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\Google_tests\Google_Tests_run.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  ..\DateConverter_lib\DateConverter_lib.lib ..\lib\gtestd.lib ..\lib\gtest_maind.lib ..\lib\gtestd.lib ..\lib\gmock_maind.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:Google_Tests_run.exe /implib:Google_Tests_run.lib /pdb:C:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug\Google_tests\Google_Tests_run.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  ..\src\DateConverter_lib.lib ..\lib\gtestd.lib ..\lib\gtest_maind.lib ..\lib\gtestd.lib ..\lib\gmock_maind.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 	cd C:\Users\pua66\CLionProjects\DateConverter\cmake-build-debug
 

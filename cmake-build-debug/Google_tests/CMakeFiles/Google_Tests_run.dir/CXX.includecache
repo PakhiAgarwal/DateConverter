@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-../DateConverter_lib/Gregorian.h
+../src/Gregorian.h
 
-../DateConverter_lib/Julian.h
+../src/Julian.h
 
 C:/Users/pua66/CLionProjects/DateConverter/Google_tests/AbsoluteDateTest.cpp
 gtest/gtest.h
